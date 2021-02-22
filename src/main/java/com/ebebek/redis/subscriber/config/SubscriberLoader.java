@@ -47,9 +47,6 @@ public class SubscriberLoader {
         final RedisTemplate template = new RedisTemplate();
         template.setConnectionFactory(factory);
         template.setValueSerializer(serializerSetup());
-//        template.setHashValueSerializer();
-//        template.setKeySerializer();
-//        template.setHashKeySerializer();
         template.afterPropertiesSet();
         return template;
     }
