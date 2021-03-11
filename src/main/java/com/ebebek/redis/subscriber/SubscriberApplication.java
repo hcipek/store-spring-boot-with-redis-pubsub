@@ -23,7 +23,7 @@ public class SubscriberApplication {
 
     @Bean
     public ChannelTopic topic() {
-        return new ChannelTopic( "pubsub:queue" );
+        return new ChannelTopic("pubsub:info");
     }
 
     @Bean
